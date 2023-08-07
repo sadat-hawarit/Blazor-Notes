@@ -35,3 +35,27 @@ PollForUpdates
 Implement Dispose
 
 Parameter & CascadingParameter
+
+# Since Last Meeting
+- Blazor WebAssembly does not have AddScoped(), it just acts like AddSingleton()
+- Configure session or local storage with 3rd party nuget packages or JS Interop
+- Alternate to PollForUpdates: EventCallback
+
+- Component Lifecycle
+
+- Performance Improvement: 
+- Virtualization
+- Lightweight Optimized Components
+- Inline chile components into their parents [ASP.NET Core Blazor performance best practices | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/performance?view=aspnetcore-7.0&source=recommendations#inline-child-components-into-their-parents), 
+- Define resuable renderfragments [ASP.NET Core Blazor performance best practices | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/performance?view=aspnetcore-7.0&source=recommendations#inline-child-components-into-their-parents),
+
+- Lazy Loading
+
+- Event Handling
+
+- File Uploads and Downloads 
+- Logging
+
+- Error Handling
+
+- Testing: bUnit

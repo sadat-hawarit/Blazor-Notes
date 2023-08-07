@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentication & Authorization.md",
+                "file": "Learnt So Far.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Authentication & Authorization.md",
+                "file": "Learnt So Far.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Authentication & Authorization.md",
+                "file": "Learnt So Far.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Authentication & Authorization.md"
+                "file": "Learnt So Far.md"
               }
             }
           }
@@ -220,17 +219,17 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "b11082b06fa23771",
+  "active": "4a58c1a5fc3f40e7",
   "lastOpenFiles": [
+    "State Management.md",
+    "Learnt So Far.md",
+    "Authentication & Authorization.md",
     "Component Basics.md",
     "Binding.md",
-    "Authentication & Authorization.md",
-    "Learnt So Far.md",
     "Learnt from Errors.md",
     "Pasted image 20230807095020.png",
     "Dependency Injection.md",
     "General Concepts.md",
-    "State Management.md",
     "Pasted image 20230807095027.png",
     "Untitled.md",
     "Form Validation.md",
