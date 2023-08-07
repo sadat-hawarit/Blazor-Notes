@@ -43,3 +43,4 @@ By default, the [`Microsoft.AspNetCore.Components.WebAssembly.Authentication`](h
     public string? Action { get; set; }
 }
 ```
+`RemoteAuthenticationState` is used by the authentication system to preserve state across the redirects, like the return URL. When you derive from this type, any public properties will be JSON serialized as part of the persisted state.
