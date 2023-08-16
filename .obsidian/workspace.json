@@ -4,92 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6f6483b2813f48f4",
+        "id": "cbfa9f836a9af745",
         "type": "tabs",
         "children": [
           {
-            "id": "4a58c1a5fc3f40e7",
+            "id": "7363a19943c062ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnt So Far.md",
+                "file": "Learnt from Errors.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4fe6b4e8487a9e47",
+            "id": "9b80d7a0fa5aa65a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b11082b06fa23771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Authentication & Authorization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f01a126610532eaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "State Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c036d6dc3501831",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20230807095020.png"
-              }
-            }
-          },
-          {
-            "id": "f33f73cc882a1263",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Authentication & Authorization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74bc1f2ae367376e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "General Concepts.md",
+                "file": "17 AUG.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 275.5,
+    "collapsed": true
   },
   "right": {
     "id": "95055f6bfbd57b76",
@@ -155,14 +99,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnt So Far.md",
+                "file": "17 AUG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -172,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnt So Far.md",
+                "file": "17 AUG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,11 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnt So Far.md"
+                "file": "17 AUG.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -216,28 +161,40 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "4a58c1a5fc3f40e7",
+  "active": "9b80d7a0fa5aa65a",
   "lastOpenFiles": [
-    "State Management.md",
-    "Learnt So Far.md",
-    "Authentication & Authorization.md",
-    "Component Basics.md",
-    "Binding.md",
+    "To.md",
+    "17 AUG.md",
     "Learnt from Errors.md",
+    "Binding.md",
+    "16 August 2023.md",
+    "Component Basics.md",
+    "Pasted image 20230816091936.png",
+    "Routing & Navigation.md",
+    "Learnt So Far.md",
+    "State Management.md",
+    "Security.md",
+    "14 August 2023.md",
+    "11 August 2023.md",
+    "8 August 2023.md",
+    "10 August 2023.md",
+    "9 August 2023.md",
+    "Authentication & Authorization.md",
+    "Dynamic Component.md",
+    "Pasted image 20230808094214.png",
     "Pasted image 20230807095020.png",
     "Dependency Injection.md",
     "General Concepts.md",
     "Pasted image 20230807095027.png",
-    "Untitled.md",
     "Form Validation.md",
     "Layout.md",
     "Razor Directives.md",
     "JS Interop.md",
     "Project Idea.md",
-    "String API.md",
-    "Routing & Navigation.md"
+    "String API.md"
   ]
 }

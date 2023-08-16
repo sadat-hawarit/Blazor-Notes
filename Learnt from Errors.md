@@ -94,3 +94,31 @@ To solve this we use InvokeAsync() to switch execution to the Dispatcher:
 ```
 - `OnTimerCallback` runs outside of any Blazor-managed rendering flow or event notification. Therefore, `OnTimerCallback` must call [StateHasChanged](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.componentbase.statehaschanged) because Blazor isn't aware of the changes to `currentCount` in the callback.
 - The component implements [IDisposable](https://learn.microsoft.com/en-us/dotnet/api/system.idisposable), where the [Timer](https://learn.microsoft.com/en-us/dotnet/api/system.timers.timer) is disposed when the framework calls the `Dispose` method.
+-
+## SignOutSessionStateManager is obsolete: Use Microsoft.AspNetCore.Components.Webassembly.Authentication.NavigationManagerExtensions.NavigateToLogout'instead.
+
+
+## A field initializer cannot reference the non-static field, method, or property
+
+The error message “A field initializer cannot reference the non-static field, method, or property” occurs when you try to use an instance variable to initialize another instance variable. This is not allowed because the compiler can rearrange the order of initialization, and there is no guarantee that the first instance variable will be initialized before the second one. This could result in a `NullReferenceException`.
+
+To fix this error, you can either initialize the second instance variable with a constant value or set up its value in the constructor of the class. For example, instead of writing:
+
+```csharp
+private Reminders reminder = new Reminders();
+private dynamic defaultReminder = reminder.TimeSpanText[TimeSpan.FromMinutes(15)];
+```
+
+You can write:
+
+```csharp
+private Reminders reminder = new Reminders();
+private dynamic defaultReminder;
+
+public SomeOtherClass()
+{
+    defaultReminder = reminder.TimeSpanText[TimeSpan.FromMinutes(15)];
+}
+```
+
+This way, you ensure that `reminder` is initialized before `defaultReminder`

@@ -36,7 +36,7 @@ Implement Dispose
 
 Parameter & CascadingParameter
 
-# Since Last Meeting
+
 - Blazor WebAssembly does not have AddScoped(), it just acts like AddSingleton()
 - Configure session or local storage with 3rd party nuget packages or JS Interop
 - Alternate to PollForUpdates: EventCallback
@@ -59,3 +59,22 @@ Parameter & CascadingParameter
 - Error Handling
 
 - Testing: bUnit
+
+
+- **End to End testing with PlayWright and NUnit** 
+- **File uploads and downloads** 
+- Templated Components: RenderFragment
+- Globalization & Localization
+- Razor Class Libraries
+- **Dynamic Component**
+
+- Check MIME type:  **application/octet-stream**
+- Performance Best Practices and What to avoid
+- Calling JS from .NET
+- Call .NET from JS
+
+
+- Optional property ?
+- Security
+- Call Web API
+- shared/overwriting-parameters
